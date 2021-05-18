@@ -1,0 +1,57 @@
+{
+  "name": "rds-vpc-setup",
+  "private": true,
+  "description": "Create an RDS Postgres instance with a Proxy",
+  "license": "ISC",
+  "version": "0.1.0",
+  "author": {
+    "name": "Ryan Dsouza",
+    "email": "dsouza.ryan.11@gmail.com"
+  },
+  "bin": {
+    "rds-vpc-setup": "bin/rds-vpc-setup.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "dotenv -- jest",
+    "cdk": "dotenv -- cdk",
+    "postinstall": "husky install"
+  },
+  "devDependencies": {
+    "@aws-cdk/assert": "1.104.0",
+    "@types/aws-lambda": "8.10.76",
+    "@types/jest": "26.0.20",
+    "@types/node": "14.14.31",
+    "aws-cdk": "1.104.0",
+    "aws-sdk": "2.908.0",
+    "dotenv-cli": "4.0.0",
+    "esbuild": "0.12.0",
+    "husky": "5.0.9",
+    "jest": "26.6.3",
+    "lint-staged": "10.5.4",
+    "prettier": "2.3.0",
+    "prisma": "2.22.1",
+    "ts-jest": "26.5.6",
+    "ts-node": "9.1.1",
+    "typescript": "4.2.4"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-apigateway": "1.104.0",
+    "@aws-cdk/aws-ec2": "1.104.0",
+    "@aws-cdk/aws-iam": "1.104.0",
+    "@aws-cdk/aws-lambda-nodejs": "1.104.0",
+    "@aws-cdk/aws-rds": "1.104.0",
+    "@aws-cdk/core": "1.104.0",
+    "@prisma/client": "2.22.1",
+    "source-map-support": "0.5.19"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "arrowParens": "avoid"
+  },
+  "lint-staged": {
+    "*.{ts,json,md}": "prettier --write"
+  }
+}
