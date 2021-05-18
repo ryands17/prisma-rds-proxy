@@ -37,7 +37,7 @@ ssh -N -L 5432:rds-host:5432 ec2-user@ec2-ip-address -i ec2-keypair.pem -v
 
 8. Run `yarn prisma db seed --preview-feature` to add the sample data.
 
-9. Open the API URL obtained in the outputs after you have run CDK deploy in the console.
+9. Open the API URL obtained in the terminal output after you have run CDK deploy in the console.
 
 ## Useful commands
 
