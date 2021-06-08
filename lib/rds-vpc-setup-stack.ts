@@ -150,7 +150,7 @@ export class RdsVpcSetupStack extends cdk.Stack {
             return []
           },
           beforeInstall(_inputDir: string, outputDir: string) {
-            return [`cp -R ../prisma ${outputDir}/`]
+            return [`cp -R ./prisma ${outputDir}/`]
           },
           afterBundling(_inputDir: string, outputDir: string) {
             return [
