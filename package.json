@@ -19,11 +19,11 @@
     "postinstall": "husky install"
   },
   "devDependencies": {
-    "@aws-cdk/assert": "1.134.0",
+    "@aws-cdk/assert": "2.2.0",
     "@types/aws-lambda": "8.10.86",
     "@types/jest": "27.0.3",
     "@types/node": "16.11.12",
-    "aws-cdk": "1.134.0",
+    "aws-cdk": "2.2.0",
     "aws-sdk": "2.1044.0",
     "dotenv-cli": "4.1.1",
     "esbuild": "0.14.2",
