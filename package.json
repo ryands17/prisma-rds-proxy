@@ -26,7 +26,7 @@
     "aws-cdk": "1.138.1",
     "aws-sdk": "2.1053.0",
     "dotenv-cli": "4.1.1",
-    "esbuild": "0.14.10",
+    "esbuild": "0.14.19",
     "husky": "7.0.4",
     "jest": "27.4.7",
     "lint-staged": "12.1.7",
