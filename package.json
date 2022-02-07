@@ -24,7 +24,7 @@
     "@types/jest": "27.4.0",
     "@types/node": "16.11.22",
     "aws-cdk": "1.143.0",
-    "aws-sdk": "2.1053.0",
+    "aws-sdk": "2.1069.0",
     "dotenv-cli": "4.1.1",
     "esbuild": "0.14.19",
     "husky": "7.0.4",
