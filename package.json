@@ -28,11 +28,11 @@
     "dotenv-cli": "4.1.1",
     "esbuild": "0.14.20",
     "husky": "7.0.4",
-    "jest": "27.4.7",
+    "jest": "27.5.0",
     "lint-staged": "12.3.3",
     "prettier": "2.5.1",
     "prisma": "3.9.1",
-    "ts-jest": "27.1.2",
+    "ts-jest": "27.1.3",
     "ts-node": "10.5.0",
     "typescript": "4.5.5"
   },
