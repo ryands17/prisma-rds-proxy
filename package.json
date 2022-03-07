@@ -22,7 +22,7 @@
     "@aws-cdk/assert": "1.143.0",
     "@types/aws-lambda": "8.10.93",
     "@types/jest": "27.4.0",
-    "@types/node": "16.11.22",
+    "@types/node": "16.11.26",
     "aws-cdk": "1.143.0",
     "aws-sdk": "2.1070.0",
     "dotenv-cli": "4.1.1",
