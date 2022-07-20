@@ -19,11 +19,11 @@
     "postinstall": "husky install"
   },
   "devDependencies": {
-    "@aws-cdk/assert": "1.159.0",
+    "@aws-cdk/assert": "1.165.0",
     "@types/aws-lambda": "8.10.101",
     "@types/jest": "27.5.2",
     "@types/node": "16.11.43",
-    "aws-cdk": "1.159.0",
+    "aws-cdk": "1.165.0",
     "aws-sdk": "2.1170.0",
     "dotenv-cli": "4.1.1",
     "esbuild": "0.14.48",
@@ -37,12 +37,12 @@
     "typescript": "4.7.4"
   },
   "dependencies": {
-    "@aws-cdk/aws-apigateway": "1.159.0",
-    "@aws-cdk/aws-ec2": "1.159.0",
-    "@aws-cdk/aws-iam": "1.159.0",
-    "@aws-cdk/aws-lambda-nodejs": "1.159.0",
-    "@aws-cdk/aws-rds": "1.159.0",
-    "@aws-cdk/core": "1.159.0",
+    "@aws-cdk/aws-apigateway": "1.165.0",
+    "@aws-cdk/aws-ec2": "1.165.0",
+    "@aws-cdk/aws-iam": "1.165.0",
+    "@aws-cdk/aws-lambda-nodejs": "1.165.0",
+    "@aws-cdk/aws-rds": "1.165.0",
+    "@aws-cdk/core": "1.165.0",
     "@prisma/client": "3.15.2",
     "source-map-support": "0.5.21"
   },
