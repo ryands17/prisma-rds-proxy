@@ -1823,10 +1823,10 @@ aws-cdk@1.159.0:
   optionalDependencies:
     fsevents "2.3.2"
 
-aws-sdk@2.1489.0:
-  version "2.1489.0"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.1489.0.tgz#47cdba8355588e16843655743998aac3b0ff9e03"
-  integrity sha512-DXps/qhDxnVMoQmMu+HIEd92IlCR5HLGGEMmivBaRkga1uyMBrI1D5glNYjyZMfZS1n7ECpiU6xXa/jyBKZ8Qg==
+aws-sdk@2.1552.0:
+  version "2.1552.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.1552.0.tgz#b5b7b1b21d8cbd9647164485095608068b650761"
+  integrity sha512-sRuzlCeSHXUsdLqsV/E+nPrgBn1EI3BoA38D5qfNMRcPTd9j4G8M4AyMymKyNxLoWOKLqz7xFBa801MHflGwEg==
   dependencies:
     buffer "4.9.2"
     events "1.1.1"
@@ -1837,7 +1837,7 @@ aws-sdk@2.1489.0:
     url "0.10.3"
     util "^0.12.4"
     uuid "8.0.0"
-    xml2js "0.5.0"
+    xml2js "0.6.2"
 
 babel-jest@^27.5.1:
   version "27.5.1"
@@ -4671,10 +4671,10 @@ xml-name-validator@^3.0.0:
   resolved "https://registry.yarnpkg.com/xml-name-validator/-/xml-name-validator-3.0.0.tgz#6ae73e06de4d8c6e47f9fb181f78d648ad457c6a"
   integrity sha512-A5CUptxDsvxKJEU3yO6DuWBSJz/qizqzJKOMIfUJHETbBw/sFaDxgd6fxm1ewUaM0jZ444Fc5vC5ROYurg/4Pw==
 
-xml2js@0.5.0:
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/xml2js/-/xml2js-0.5.0.tgz#d9440631fbb2ed800203fad106f2724f62c493b7"
-  integrity sha512-drPFnkQJik/O+uPKpqSgr22mpuFHqKdbS835iAQrUC73L2F5WkboIRd63ai/2Yg6I1jzifPFKH2NTK+cfglkIA==
+xml2js@0.6.2:
+  version "0.6.2"
+  resolved "https://registry.yarnpkg.com/xml2js/-/xml2js-0.6.2.tgz#dd0b630083aa09c161e25a4d0901e2b2a929b499"
+  integrity sha512-T4rieHaC1EXcES0Kxxj4JWgaUQHDk+qwHcYOCFHfiwKz7tOVPLq7Hjq9dM1WCMhylqMEfP7hMcOIChvotiZegA==
   dependencies:
     sax ">=0.6.0"
     xmlbuilder "~11.0.0"
